@@ -1,0 +1,75 @@
+
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+*{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	box-sizing: border-box;
+}
+body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: #0f0f0f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Monserrat', sans-serif;
+    padding: 1rem;
+}
+.container{
+    width: calc(768px - 2rem);
+    background: #f26722;
+    color: #fff;
+    padding: 16px;
+    border-radius: 10px;
+}
+.container h4{
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.container .form{
+    position: relative;
+    width: 100%;
+    margin: 2rem 0;
+}
+.container .form input{
+    width: 100%;
+    background: #0f0f0f;
+    border: none;
+    outline: none;
+    padding: 15px 145px 15px 12px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.container .form button{
+    position: absolute;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: #fff;
+    border: none;
+    outline: none;
+    background: #f26722;
+    right: 3px;
+    top: 3px;
+    cursor: pointer;
+    width: 130px;
+}
+.container .nameBox{
+    position: relative;
+    background: #0f0f0f;
+    border-radius: 10px;
+    padding: 12px;
+}
+.container .nameBox span{
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-transform: capitalize;
+    letter-spacing: .3px;
+}

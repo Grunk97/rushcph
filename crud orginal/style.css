@@ -1,0 +1,27 @@
+body {
+    background-color: #0f0f0f;
+    color: #f26722;
+}
+
+td {
+    color: white;
+}
+
+tr {
+    color:white;
+}
+
+.container .my-5 tr td{
+    color: white;
+}
+
+hr {
+    width: 15%;
+    border-width: 3px;
+    border-color: #f26722;
+}
+
+.winnerbtn {
+    background-color: #f26722 !important;
+    border-color: #f26722 !important;
+}
